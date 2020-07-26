@@ -1,2 +1,2 @@
 # Calculator
-A simple calculator done in plain javascript
+A [simple calculator](https://lambertschulze.github.io/Calculator) done in plain javascript
