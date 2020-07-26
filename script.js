@@ -1,7 +1,7 @@
 class Calculation {
 	constructor() {
 		const display = document.querySelector('#display');
-		this.formula = "";
+		this.formula = '';
 	}
 
 	addDigit(digit) {
@@ -30,6 +30,11 @@ class Calculation {
 		
 		console.log(this.formula);
 	}
+	clear() {
+		display.innerText = '';
+		this.formula = '';
+		console.log(this.formula);
+	}
 }
 var calculation = new Calculation();
 
@@ -51,4 +56,9 @@ operatorButtons.forEach((button) => {
 const solveButton = document.querySelector('#solve');
 solveButton.addEventListener('click', () => {
 	calculation.solve();
+});
+
+const clearButton = document.querySelector('#clear');
+clearButton.addEventListener('click', () => {
+	calculation.clear();
 });
