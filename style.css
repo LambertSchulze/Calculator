@@ -5,11 +5,19 @@
     max-width: 40ch;
     margin: 0 auto;
 
+    border-radius: 1em;
     background-color: #ddd;
 }
 
 .display {
-    min-height: 2em;
+    min-height: 1.2em;
+    padding: .5em;
+
+    text-align: right;
+
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    background-color: #efefef;
 }
 
 .input {
@@ -17,10 +25,13 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: 
-    "one two three plus clear"
-    "four five six minus ."
-    "seven eight nine times solve"
-    ". zero . divide solve";
+    "one   two   three plus   clear"
+    "four  five  six   minus  ."
+    "seven eight nine  times  solve"
+    ".     zero  .     divide solve";
+    gap: .3em;
+
+    padding: .5em;
 }
 
 #button_1 {grid-area: one;}
