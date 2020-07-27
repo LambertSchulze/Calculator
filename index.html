@@ -2,28 +2,32 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<title>Calculator</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 
 	<body>
 		<h1>Calculator</h1>
-		<div class="wrapper">
+		<div class="calculator">
 			<div class="display" id="display"></div>
-			<div class="button" id="button_1">1</div>
-			<div class="button" id="button_2">2</div>
-			<div class="button" id="button_3">3</div>
-			<div class="button" id="button_4">4</div>
-			<div class="button" id="button_5">5</div>
-			<div class="button" id="button_6">6</div>
-			<div class="button" id="button_7">7</div>
-			<div class="button" id="button_8">8</div>
-			<div class="button" id="button_9">9</div>
-			<div class="button" id="button_0">0</div>
-			<div class="button" id="add">+</div>
-			<div class="button" id="subtract">-</div>
-			<div class="button" id="multiply">*</div>
-			<div class="button" id="divide">/</div>
-			<div class="button" id="solve">=</div>
-			<div class="button" id="clear">clear</div>
+			<form name="input" class="input" id="input">
+				<button type="button" class="button" id="button_1">1</button>
+				<button type="button" class="button" id="button_2">2</button>
+				<button type="button" class="button" id="button_3">3</button>
+				<button type="button" class="button" id="button_4">4</button>
+				<button type="button" class="button" id="button_5">5</button>
+				<button type="button" class="button" id="button_6">6</button>
+				<button type="button" class="button" id="button_7">7</button>
+				<button type="button" class="button" id="button_8">8</button>
+				<button type="button" class="button" id="button_9">9</button>
+				<button type="button" class="button" id="button_0">0</button>
+				<button type="button" class="button" id="add">+</button>
+				<button type="button" class="button" id="subtract">-</button>
+				<button type="button" class="button" id="multiply">*</button>
+				<button type="button" class="button" id="divide">/</button>
+				<button type="button" class="button" id="solve">=</button>
+				<button type="button" class="button" id="clear">clear</button>
+			</form>
 		</div>
 
 		<script src="script.js"></script>
