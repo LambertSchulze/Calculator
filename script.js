@@ -11,7 +11,7 @@ class Calculation {
 	}
 
 	addOperation(operation) {
-		display.innerText = "";
+		display.innerHTML += '<br>' + operation;
 
 		//check if last input already was an operation
 		if ('+-*/'.includes(this.formula.charAt(this.formula.length - 1))) {

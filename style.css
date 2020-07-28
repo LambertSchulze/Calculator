@@ -1,23 +1,70 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: #444;
+}
+
+body {
+    max-width: 450px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+h1 {
+    color: #222;
+    text-align: center;
+}
+
+button {
+    display: inline-block;
+    -webkit-appearance: none;
+    padding: .5rem 1rem;
+    margin: 0;
+    font-size: 1rem;
+    border: 2px solid #58595b;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #58595b;
+    color: #fcfcfc;
+}
+
+.accent {
+    background: #f15a2b;
+    border: 2px solid #f15a2b;
+}
+
+.accent2 {
+    background: #100e0f;
+    border: 2px solid #100e0f;
+}
+
+button:active,
+button:focus {
+    outline: 0;
+    border: 2px solid #fcfcfc;
+}
+
 .calculator {
     display: flex;
     flex-direction: column;
-
-    max-width: 40ch;
-    margin: 0 auto;
-
-    border-radius: 1em;
-    background-color: #ddd;
+    padding: 1rem;
+    border-radius: 4px;
+    background: #3e373b;
 }
 
 .display {
     min-height: 1.2em;
     padding: .5em;
-
     text-align: right;
-
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
-    background-color: #efefef;
+    border-radius: 4px;
+    background-color: #a2af77;
+    overflow: hidden;
 }
 
 .input {
@@ -29,9 +76,8 @@
     "four  five  six   minus  ."
     "seven eight nine  times  solve"
     ".     zero  .     divide solve";
-    gap: .3em;
-
-    padding: .5em;
+    gap: .5rem;
+    padding-top: 1rem;
 }
 
 #button_1 {grid-area: one;}
@@ -44,9 +90,9 @@
 #button_8 {grid-area: eight;}
 #button_9 {grid-area: nine;}
 #button_0 {grid-area: zero;}
-#add      {grid-area: plus;}
-#subtract {grid-area: minus;}
-#multiply {grid-area: times;}
-#divide   {grid-area: divide;}
-#solve    {grid-area: solve;}
+#add      {grid-area: plus; font-weight: bolder;}
+#subtract {grid-area: minus; font-weight: bolder;}
+#multiply {grid-area: times; font-weight: bolder;}
+#divide   {grid-area: divide; font-weight: bolder;}
+#solve    {grid-area: solve; font-weight: bolder;}
 #clear    {grid-area: clear;}
