@@ -75,7 +75,7 @@ button:focus {
     "one   two   three plus   clear"
     "four  five  six   minus  ."
     "seven eight nine  times  solve"
-    ".     zero  .     divide solve";
+    ".     zero  dec   divide solve";
     gap: .5rem;
     padding-top: 1rem;
 }
@@ -90,6 +90,7 @@ button:focus {
 #button_8 {grid-area: eight;}
 #button_9 {grid-area: nine;}
 #button_0 {grid-area: zero;}
+#decimal  {grid-area: dec;}
 #add      {grid-area: plus; font-weight: bolder;}
 #subtract {grid-area: minus; font-weight: bolder;}
 #multiply {grid-area: times; font-weight: bolder;}
