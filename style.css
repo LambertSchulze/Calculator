@@ -72,10 +72,10 @@ button:focus {
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: 
-    "one   two   three plus   clear"
-    "four  five  six   minus  ."
+    "one   two   three plus   delete"
+    "four  five  six   minus  clear"
     "seven eight nine  times  solve"
-    ".     zero  dec   divide solve";
+    "zero  zero  dec   divide solve";
     gap: .5rem;
     padding-top: 1rem;
 }
@@ -97,3 +97,4 @@ button:focus {
 #divide   {grid-area: divide; font-weight: bolder;}
 #solve    {grid-area: solve; font-weight: bolder;}
 #clear    {grid-area: clear;}
+#delete   {grid-area: delete;}
