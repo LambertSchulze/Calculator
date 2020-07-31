@@ -18,6 +18,11 @@ class Calculation {
 		}
 		else {
 			if (operation == '.') {
+				//check if number already has a decimal point
+				if (this.displayText.split(" ").pop().includes(".")) {
+					return;
+				}
+
 				this.displayText += operation;
 			}
 			else {
