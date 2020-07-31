@@ -6,4 +6,14 @@ A simple calculator done in plain javascript. You can add, subtract, multiply an
 
 ## Motivation
 
-This project was made for learning experience. Feel free to fork, comment and critique. It's open source and available under the [MIT License](LICENSE.md).
+This project was made for learning experience.
+Some features I wanted to implement are:
+- basic math operations
+- decimal numbers
+- correct order of operations
+- basic keyboard support
+- good looking UI
+
+Feel free to fork, comment and critique. It's open source and available under the [MIT License](LICENSE.md).
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
