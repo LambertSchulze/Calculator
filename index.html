@@ -7,30 +7,53 @@
 	</head>
 
 	<body>
-		<h1>Calculator</h1>
-		<div class="calculator">
-			<div class="display" id="display"></div>
-			<form name="input" class="input" id="input">
-				<button type="button" class="button" id="button_1">1</button>
-				<button type="button" class="button" id="button_2">2</button>
-				<button type="button" class="button" id="button_3">3</button>
-				<button type="button" class="button" id="button_4">4</button>
-				<button type="button" class="button" id="button_5">5</button>
-				<button type="button" class="button" id="button_6">6</button>
-				<button type="button" class="button" id="button_7">7</button>
-				<button type="button" class="button" id="button_8">8</button>
-				<button type="button" class="button" id="button_9">9</button>
-				<button type="button" class="button" id="button_0">0</button>
-				<button type="button" class="button" id="decimal">.</button>
-				<button type="button" class="button secondary" id="add">+</button>
-				<button type="button" class="button secondary" id="subtract">-</button>
-				<button type="button" class="button secondary" id="multiply">*</button>
-				<button type="button" class="button secondary" id="divide">/</button>
-				<button type="button" class="button primary" id="solve">=</button>
-				<button type="button" class="button variant" id="delete">DEL</button>
-				<button type="button" class="button variant" id="clear">CA</button>
-			</form>
-		</div>
+		<header>
+			<h1>Calculator</h1>
+		</header>
+
+		<main>
+			<div class="calculator">
+				<div class="display" id="display"></div>
+				<form name="input" class="input" id="input">
+					<button type="button" class="button" id="button_1">1</button>
+					<button type="button" class="button" id="button_2">2</button>
+					<button type="button" class="button" id="button_3">3</button>
+					<button type="button" class="button" id="button_4">4</button>
+					<button type="button" class="button" id="button_5">5</button>
+					<button type="button" class="button" id="button_6">6</button>
+					<button type="button" class="button" id="button_7">7</button>
+					<button type="button" class="button" id="button_8">8</button>
+					<button type="button" class="button" id="button_9">9</button>
+					<button type="button" class="button" id="button_0">0</button>
+					<button type="button" class="button" id="decimal">.</button>
+					<button type="button" class="button secondary" id="add">+</button>
+					<button type="button" class="button secondary" id="subtract">-</button>
+					<button type="button" class="button secondary" id="multiply">*</button>
+					<button type="button" class="button secondary" id="divide">/</button>
+					<button type="button" class="button primary" id="solve">=</button>
+					<button type="button" class="button variant" id="delete">DEL</button>
+					<button type="button" class="button variant" id="clear">CA</button>
+				</form>
+			</div>
+		</main>
+
+		<aside>
+			<p>You can use your keyboard to type:</p>
+			<dl>
+				<dt><kbd>0-9</kbd></dt>
+				<dd>Numbers 0-9</dd>
+				<dt><kbd>.</kbd></dt>
+				<dd>Decimal point</dd>
+				<dt><kbd>+-*/</kbd></dt>
+				<dd>Math operations: add, subtract, multiply, divide</dd>
+				<dt><kbd>Backspace</kbd></dt>
+				<dd>(DEL) Delete the last input</dd>
+				<dt><kbd>Escape</kbd></dt>
+				<dd>(CA) Clear all history</dd>
+				<dt><kbd>=</kbd></dt>
+				<dd>Solve the equation</dd>
+			</dl>
+		</aside>
 
 		<script src="script.js"></script>
 	</body>

@@ -21,6 +21,31 @@ h1 {
     text-align: center;
 }
 
+p,
+dl {
+    font-size: .8rem;
+    line-height: 1.2rem;
+}
+
+dt {
+    float: left;
+    clear: left;
+    width: 100px;
+}
+
+dd {
+    margin: 0;
+    padding: 0 0 0.5rem 0;
+}
+
+kbd {
+    padding: .1rem .2rem;
+    font-family: monospace;
+    color: #404040;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+}
+
 button {
     display: inline-block;
     -webkit-appearance: none;
