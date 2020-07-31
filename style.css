@@ -34,12 +34,17 @@ button {
     color: #fcfcfc;
 }
 
-.accent {
+.primary {
     background: #f15a2b;
     border: 2px solid #f15a2b;
+    font-weight: bolder;
 }
 
-.accent2 {
+.secondary {
+    font-weight: bolder;
+}
+
+.variant {
     background: #100e0f;
     border: 2px solid #100e0f;
 }
@@ -59,8 +64,8 @@ button:focus {
 }
 
 .display {
-    min-height: 1.2em;
-    padding: .5em;
+    min-height: 1.2rem;
+    padding: .5rem 1rem;
     text-align: right;
     border-radius: 4px;
     background-color: #a2af77;
@@ -91,10 +96,10 @@ button:focus {
 #button_9 {grid-area: nine;}
 #button_0 {grid-area: zero;}
 #decimal  {grid-area: dec;}
-#add      {grid-area: plus; font-weight: bolder;}
-#subtract {grid-area: minus; font-weight: bolder;}
-#multiply {grid-area: times; font-weight: bolder;}
-#divide   {grid-area: divide; font-weight: bolder;}
-#solve    {grid-area: solve; font-weight: bolder;}
+#add      {grid-area: plus;}
+#subtract {grid-area: minus;}
+#multiply {grid-area: times;}
+#divide   {grid-area: divide;}
+#solve    {grid-area: solve;}
 #clear    {grid-area: clear;}
 #delete   {grid-area: delete;}
